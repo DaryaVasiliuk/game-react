@@ -1,6 +1,6 @@
-import React  from "react";
-import { Link } from 'react-router-dom';
-import { CartBlock } from '../cart-block';
+import React from "react";
+import {Link} from 'react-router-dom';
+import {CartBlock} from '../cart-block';
 
 import './header.css';
 
@@ -13,7 +13,7 @@ export const Header = () => {
         </Link>
       </div>
       <div className="header__cart-btn-wrapper">
-        <CartBlock />
+        <CartBlock/>
       </div>
     </div>
   )

@@ -3,7 +3,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import { HomePage } from './pages/home-page';
+import {HomePage} from './pages/home-page';
 import {Header} from "./components/header";
 import React from "react";
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-       <Header/>
+        <Header/>
         <Switch>
           <Route path='/'>
             <HomePage/>
@@ -19,6 +19,7 @@ function App() {
         </Switch>
       </div>
     </Router>
-    );
-  }
-  export default App;
+  );
+}
+
+export default App;
