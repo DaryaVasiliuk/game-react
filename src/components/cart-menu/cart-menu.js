@@ -7,7 +7,7 @@ import {CartItem} from "../cart-item/cart-item";
 export const CartMenu = ( {items, onClick}) => {
   return (
     <div className='cart-menu'>
-      <div className='cart-menu__game-list'> (
+      <div className='cart-menu__game-list'>
         {items.length > 0 ? items.map(game =>
           <CartItem
             key ={game.title}

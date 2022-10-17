@@ -1,14 +1,14 @@
 import React from 'react';
-import './game-buy.css';
 import {Button} from "../button";
 import {useDispatch, useSelector} from "react-redux";
 import {deleteItemFromCart, setItemInCart} from "../../redux/cart/reducer";
+import './game-buy.css';
 
 
 export const GameBuy = ({ game }) => {
   const dispatch = useDispatch();
-  const items = useSelector(state => state.cart.itemsInCart)
-  const isItemInCart = items.some(item => item. id === game.id);
+  const items = useSelector((state) => state.cart.itemsInCart)
+  const isItemInCart = items.some(item => item.id === game.id);
 
   const handleClick = (e) => {
     e.stopPropagation();

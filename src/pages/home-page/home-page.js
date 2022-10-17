@@ -6,7 +6,7 @@ const GAMES = [
   {
     image: '/game-covers/forza_5.jpeg',
     title: 'Forza Horizon 5',
-    genres: ['Гонки', 'Симулятор', 'Открытый мир'],
+    genres: ['Racing', 'Simulation', 'Open World'],
     price: 23,
     video: 'https://www.youtube.com/embed/FYH9n37B7Yw',
     id: 1,
@@ -15,7 +15,7 @@ const GAMES = [
   {
     image: '/game-covers/battlefield_2042.jpg',
     title: 'Battlefield 2042',
-    genres: ['Экшен', 'Шутер', 'Война'],
+    genres: ['Action', 'Shooter', 'War'],
     video: 'https://www.youtube.com/embed/ASzOzrB-a9E',
     price: 24,
     id: 2,
@@ -24,7 +24,7 @@ const GAMES = [
   {
     image: '/game-covers/life_is_strange_true_colors.jpeg',
     title: 'Life is Strange True Colors',
-    genres: ['Глубокий сюжет', 'Протагонистка'],
+    genres: ['Deep Plot', 'Protagonist'],
     video: 'https://www.youtube.com/embed/b6CkzwVAr0M',
     price: 30,
     id: 3,
@@ -33,7 +33,7 @@ const GAMES = [
   {
     image: '/game-covers/gta_v.jpeg',
     title: 'Grand Theft Auto V',
-    genres: ['Открытый мир', 'Экшен'],
+    genres: ['Open World', 'Action'],
     video: 'https://www.youtube.com/embed/QkkoHAzjnUs',
     price: 8,
     id: 4,
@@ -43,7 +43,7 @@ const GAMES = [
     image: '/game-covers/rainbow_siege.jpeg',
     title: 'Tom Clancy\'s Rainbow Six® Siege',
     video: 'https://www.youtube.com/embed/6wlvYh0h63k',
-    genres: ['Тактика', 'Шутер'],
+    genres: ['Tactics', 'Shooter'],
     price: 11,
     id: 5,
     description: 'Tom Clancy\'s Rainbow Six Осада – это продолжение нашумевшего шутера от первого лица, разработанного студией Ubisoft Montreal.'
@@ -51,7 +51,7 @@ const GAMES = [
   {
     image: '/game-covers/assassins_creed_valhalla.png',
     title: 'Assassin’s Creed Valhalla',
-    genres: ['Паркур', 'РПГ', 'Открытый мир'],
+    genres: ['Parkour', 'RPG', 'Open World'],
     video: 'https://www.youtube.com/embed/ssrNcwxALS4',
     price: 29,
     id: 6,
